@@ -14,7 +14,16 @@ To build and install it :
 Dependancies
 ============
 
-1. Gimp plugin SDK: libgimp2.0-dev
-2. Openjpeg library 1.2 from http://www.openjpeg.org/index.php?menu=download
+1. GIMP SDK from 2.10.20  (on Windows, it seems you need to build GIMP from source to get this - linux you can install libgimp2.0-dev)
+2. OpenJPEG 2.3.1
 
 
+
+Install
+=======
+
+Linux: make  install above should install the plugin for you.
+
+Windows : If you want to run with standard Desktop installed GIMP version, rather than the version you just build using msys2, copy jp2.exe from src directory to
+
+C:\Users\[User]\AppData\Roaming\GIMP\2.10\plug-ins
