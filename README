@@ -1,0 +1,20 @@
+GIMP JPEG-2000 plugin
+=====================
+
+To build and install it :
+
+1. Ensure you have installed required dependancies, then build using :
+
+	./configure
+	make
+	make install
+
+
+
+Dependancies
+============
+
+1. Gimp plugin SDK: libgimp2.0-dev
+2. Openjpeg library 1.2 from http://www.openjpeg.org/index.php?menu=download
+
+
